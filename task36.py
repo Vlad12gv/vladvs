@@ -16,3 +16,4 @@ try:
     print(f"Площадь кольца: {area:.2f}")
 except ValueError as e:
     print(e)
+    
