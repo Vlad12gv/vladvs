@@ -4,8 +4,8 @@ num = [
     (True, False, False), (False, False, True)]
 
 def compute_expressions(X, Y, Z):
-    a = not (Y or not X and Z) or Z;    
-    b = X and not (not Y or Z) or Y;
+    a = not (Y or not X and Z) or Z    
+    b = X and not (not Y or Z) or Y
     c = not (X or Y and Z) or not X
     return a, b, c
 
