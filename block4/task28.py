@@ -10,4 +10,3 @@ def is_palindrome(number):
 print(is_palindrome(121))
 print(is_palindrome(123))
 print(is_palindrome(101))
-
