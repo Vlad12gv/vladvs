@@ -1,0 +1,6 @@
+x = int(input('Число: '))
+n = int(input('Цифра: '))
+print(f'В число {x} цифра 6 ', end='')
+print("входит" if '6' in str(x) else "не входит")
+print(f'В число {x} цифра {n} ', end='')
+print("входит" if str(n) in str(x) else "не входит")
